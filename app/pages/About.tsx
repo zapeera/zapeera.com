@@ -285,7 +285,7 @@ const About = memo(() => {
                                 <div className="flex flex-col md:flex-row gap-6 h-full">
                                   {/* Profile Image - Left Side with Padding */}
                                   <div className="flex-shrink-0">
-                                    <div className="relative w-[120px] h-[120px] md:w-[140px] md:h-[170px] rounded-lg overflow-hidden">
+                                    <div className="relative w-[180px] h-[180px] md:w-[220px] md:h-[280px] rounded-lg overflow-hidden">
                       <Image
                                         src={leader.image}
                                         alt={leader.name}
